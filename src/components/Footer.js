@@ -1,7 +1,7 @@
-import React from 'react';
 import { Container, Typography } from '@mui/material';
+import React from 'react';
 
-function Footer() {
+const Footer = () => {
   return (
     <Container style={{ padding: '20px 0', textAlign: 'center' }}>
       <Typography variant='body2' color='textSecondary'>
@@ -9,6 +9,6 @@ function Footer() {
       </Typography>
     </Container>
   );
-}
+};
 
 export default Footer;
